@@ -21,7 +21,7 @@ impl Drop for RegionGuard {
 fn main() {
     let args: Vec<String> = std::env::args().collect();
     if args.len() < 3 {
-        eprintln!("Usage: bottom <lines> <command> [args...]");
+        eprintln!("Usage: band <lines> <command> [args...]");
         std::process::exit(1);
     }
 

@@ -1,8 +1,12 @@
 [package]
-name = "bottom"
-version = "0.1.0"
+name = "inband"
+version = "1.0.0"
 edition = "2021"
 
+[[bin]]
+name = "band"
+path = "src/main.rs"
+
 [dependencies]
-crossterm = "0.27"
+crossterm = "0.29"
 ctrlc = "3.4"
