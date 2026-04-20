@@ -1,12 +1,12 @@
 [package]
-name = "inband"
+name = "cli-fit"
 version = "1.0.0+git"
 edition = "2021"
 
 [[bin]]
-name = "band"
+name = "fit"
 path = "src/main.rs"
 
 [dependencies]
 crossterm = "0.29"
-ctrlc = "3.4"
+ctrlc = "3.5"
