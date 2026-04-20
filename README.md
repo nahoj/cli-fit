@@ -1,5 +1,7 @@
 **cli-fit** lets you run an interactive command while constraining its output to a specified number of lines of the terminal. A non-invasive alternative to full-screen multiplexers like tmux and screen.
 
+**Status:** It works, to the extent that I need it to. Issues and PRs welcome.
+
 ```shell
 $ fit 5 tail -f /var/log/seqlog
 7
@@ -33,11 +35,11 @@ xonsh @ fit 5 zsh
 zsh % 
 ```
 
-cli-fit will not behave as intended if used to run:
+fit will not behave as intended if used to run:
 - programs that use the alt screen, such as multiplexers (tmux), text editors (micro), pagers (less), etc.
 - itself.
 
-However, cli-fit works fine *inside* tmux and screen.
+However, fit works fine *inside* tmux and screen.
 
 ## Install
 
